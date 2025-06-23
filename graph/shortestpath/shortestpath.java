@@ -2,11 +2,12 @@ package graph.shortestpath;
 import java.util.ArrayList;
 
 public class shortestpath {
-
+// This class implements a simple graph and finds all paths from a source to a destination node.
 public static class Edge {
     int src;
     int dest;
     int weight;
+
 
     Edge(int s, int d, int w) {
         this.src = s;
